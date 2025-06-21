@@ -16,7 +16,7 @@ class Widget:
     last_GoogleAPI_Call = 0         # for getting transit times
     transitTime = 0                 # minutes of travel time to work, this will be what is displayed
 
-    # Tomorrow API for Weather
+    # Tomorrow API for Weather, conditions come in as integer strings
     last_TomorrowAPI_Call = 0       # for weather data
     weatherCodes = {
         "0": "Unknown",
